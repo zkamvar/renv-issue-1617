@@ -20,6 +20,6 @@ Type 'q()' to quit R.
 > tick <- Sys.time(); sandpaper::validate_lesson("."); Sys.time() - tick
 ── Validating Fenced Divs ──────────────────────────────────────────────────────
 ── Validating Internal Links and Images ────────────────────────────────────────
-Time difference of 1.079572 secs
+Time difference of 1.380209 secs
 > 
 > 

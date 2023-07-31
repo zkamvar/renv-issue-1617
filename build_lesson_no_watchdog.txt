@@ -1,0 +1,55 @@
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+- Project '~/Documents/Carpentries/Git/zkamvar/renv-issue-1617' loaded. [renv 1.0.0.9000; sha: 3ab1b49]
+> tick <- Sys.time(); sandpaper::build_lesson("lsn", quiet = FALSE); Sys.time() - tick
+── Validating Fenced Divs ──────────────────────────────────────────────────────
+── Validating Internal Links and Images ────────────────────────────────────────
+◉ All files up-to-date; nothing to rebuild!
+◉ pandoc found
+  version : 2.19.2
+  path    : '/home/zhian/.local/share/r-pandoc/2.19.2'
+-- Initialising site -----------------------------------------------------------
+── Scanning episodes to rebuild ────────────────────────────────────────────────
+Writing 'instructor/introduction.html'
+Writing 'introduction.html'
+── Creating 404 page ───────────────────────────────────────────────────────────
+── Creating learner profiles ───────────────────────────────────────────────────
+── Creating homepage ───────────────────────────────────────────────────────────
+Writing 'instructor/index.html'
+Writing 'index.html'
+── Creating keypoints summary ──────────────────────────────────────────────────
+Writing ''instructor/key-points.html''
+Writing ''key-points.html''
+── Creating All-in-one page ────────────────────────────────────────────────────
+Writing ''instructor/aio.html''
+Writing ''aio.html''
+── Creating Images page ────────────────────────────────────────────────────────
+Writing ''instructor/images.html''
+Writing ''images.html''
+── Creating Instructor Notes ───────────────────────────────────────────────────
+Writing ''instructor/instructor-notes.html''
+Writing ''instructor-notes.html''
+── Creating sitemap.xml ────────────────────────────────────────────────────────
+-- Previewing site -------------------------------------------------------------
+
+Output created: /home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1617/lsn/site/docs/index.html
+Time difference of 17.54919 secs
+> 
+> 

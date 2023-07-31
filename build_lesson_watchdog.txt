@@ -1,0 +1,882 @@
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[watchdog] Listening on port 62666.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockAcquired"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Acquired lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+- Project '~/Documents/Carpentries/Git/zkamvar/renv-issue-1617' loaded. [renv 1.0.0.9000; sha: 3ab1b49]
+> tick <- Sys.time(); sandpaper::build_lesson("lsn", quiet = FALSE); Sys.time() - tick
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+── Validating Fenced Divs ──────────────────────────────────────────────────────
+── Validating Internal Links and Images ────────────────────────────────────────
+◉ All files up-to-date; nothing to rebuild!
+◉ pandoc found
+  version : 2.19.2
+  path    : '/home/zhian/.local/share/r-pandoc/2.19.2'
+-- Initialising site -----------------------------------------------------------
+── Scanning episodes to rebuild ────────────────────────────────────────────────
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 49958.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:64458 cannot be opened
+Execution halted
+[watchdog] Listening on port 59668.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 58377.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:56749 cannot be opened
+Execution halted
+[watchdog] Listening on port 54931.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 57943.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:52383 cannot be opened
+Execution halted
+[watchdog] Listening on port 62232.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 51018.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:57953 cannot be opened
+Execution halted
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 63170.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+── Creating 404 page ───────────────────────────────────────────────────────────
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 65303.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:59505 cannot be opened
+Execution halted
+[watchdog] Listening on port 50671.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+── Creating learner profiles ───────────────────────────────────────────────────
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 55035.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:56859 cannot be opened
+Execution halted
+[watchdog] Listening on port 60327.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+── Creating homepage ───────────────────────────────────────────────────────────
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 51783.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:51073 cannot be opened
+Execution halted
+[watchdog] Listening on port 56491.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 59955.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:59627 cannot be opened
+Execution halted
+[watchdog] Listening on port 58339.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 57566.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:62988 cannot be opened
+Execution halted
+[watchdog] Listening on port 65524.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+── Creating keypoints summary ──────────────────────────────────────────────────
+Writing ''instructor/key-points.html''
+Writing ''key-points.html''
+── Creating All-in-one page ────────────────────────────────────────────────────
+Writing ''instructor/aio.html''
+Writing ''aio.html''
+── Creating Images page ────────────────────────────────────────────────────────
+Writing ''instructor/images.html''
+Writing ''images.html''
+── Creating Instructor Notes ───────────────────────────────────────────────────
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Listening on port 49499.
+[watchdog] Waiting for client...
+Error in socketConnection(host = "127.0.0.1", port = port, open = open,  : 
+  cannot open the connection
+Calls: <Anonymous> -> renv_socket_connect -> socketConnection
+In addition: Warning message:
+In socketConnection(host = "127.0.0.1", port = port, open = open,  :
+  127.0.0.1:65003 cannot be opened
+Execution halted
+[watchdog] Listening on port 59351.
+[watchdog] Waiting for client...
+[watchdog] Synchronized with client.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "LockReleased"
+ $ data  :List of 1
+  ..$ path: chr "/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock"
+[watchdog] Released lock on path '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock'.
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+[watchdog] Error: cannot open the connection
+[watchdog] Refreshing lock times.
+[watchdog] Waiting for connection...
+Warning message:
+renv took longer than expected (10 seconds) to activate the sandbox.
+
+The sandbox can be disabled by setting:
+
+    RENV_CONFIG_SANDBOX_ENABLED = FALSE
+
+within an appropriate start-up .Renviron file.
+
+See `?renv::config` for more details. 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+Warning message:
+In rm(list = request$data$path, envir = lockenv) :
+  object '/home/zhian/.cache/R/renv/sandbox/R-4.3/x86_64-pc-linux-gnu/9a444a72.lock' not found
+Writing ''instructor/instructor-notes.html''
+Writing ''instructor-notes.html''
+── Creating sitemap.xml ────────────────────────────────────────────────────────
+-- Previewing site -------------------------------------------------------------
+
+Output created: /home/zhian/Documents/Carpentries/Git/zkamvar/renv-issue-1617/lsn/site/docs/index.html
+Time difference of 2.122571 mins
+> 
+> 
+[watchdog] Received connection; reading data.
+[watchdog] Received request.
+List of 2
+ $ method: chr "Shutdown"
+ $ data  : list()
+[watchdog] Received shutdown request; shutting down.
+There were 50 or more warnings (use warnings() to see the first 50)
