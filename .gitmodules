@@ -1,0 +1,3 @@
+[submodule "lsn"]
+	path = lsn
+	url = https://github.com/carpentries/workbench-template-rmd.git
