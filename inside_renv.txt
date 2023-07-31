@@ -1,0 +1,313 @@
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+- Project '~/Documents/Carpentries/Git/zkamvar/renv-issue-1617' loaded. [renv 1.0.0.9000; sha: 3ab1b49]
+- renv took 0.69 secs to run the autoloader.
+- Profile: /tmp/Rtmpsz6lDO/renv-startup-1a74726f869d2.Rprof
+$by.self
+                         self.time self.pct total.time total.pct
+"as_data_frame"               0.04        8       0.04         8
+"lazyLoadDBfetch"             0.04        8       0.04         8
+"readRDS"                     0.04        8       0.04         8
+"<Anonymous>"                 0.02        4       0.40        80
+"lapply"                      0.02        4       0.28        56
+"renv_dependencies_list"      0.02        4       0.06        12
+"renv_filebacked_get"         0.02        4       0.06        12
+"renv_defer_id"               0.02        4       0.04         8
+".POSIXct"                    0.02        4       0.02         4
+"[<-"                         0.02        4       0.02         4
+"case"                        0.02        4       0.02         4
+"dim.data.frame"              0.02        4       0.02         4
+"gsub"                        0.02        4       0.02         4
+"regexec"                     0.02        4       0.02         4
+"regexpr"                     0.02        4       0.02         4
+"renv_load_quiet"             0.02        4       0.02         4
+"renv_record_normalize"       0.02        4       0.02         4
+"sort.int"                    0.02        4       0.02         4
+"sub"                         0.02        4       0.02         4
+"substr"                      0.02        4       0.02         4
+"sys.function"                0.02        4       0.02         4
+"tolower"                     0.02        4       0.02         4
+
+$by.total
+                                            total.time total.pct self.time
+"eval.parent"                                     0.50       100      0.00
+"eval"                                            0.50       100      0.00
+"local"                                           0.50       100      0.00
+"renv_bootstrap_exec"                             0.50       100      0.00
+"renv_bootstrap_load"                             0.50       100      0.00
+"source"                                          0.50       100      0.00
+"withVisible"                                     0.50       100      0.00
+"renv::load"                                      0.46        92      0.00
+"<Anonymous>"                                     0.40        80      0.02
+"renv_load_finish"                                0.40        80      0.00
+"renv_load_report_synchronized"                   0.40        80      0.00
+"status"                                          0.40        80      0.00
+"lapply"                                          0.28        56      0.02
+"doWithOneRestart"                                0.28        56      0.00
+"FUN"                                             0.28        56      0.00
+"renv_lockfile_create_impl"                       0.28        56      0.00
+"renv_lockfile_create"                            0.28        56      0.00
+"withOneRestart"                                  0.28        56      0.00
+"withRestarts"                                    0.28        56      0.00
+"map"                                             0.26        52      0.00
+"renv_snapshot_packages"                          0.26        52      0.00
+"renv_dependencies_discover_description"          0.22        44      0.00
+"renv_package_dependencies_impl"                  0.22        44      0.00
+"renv_package_dependencies"                       0.22        44      0.00
+"doTryCatch"                                      0.18        36      0.00
+"tryCatch"                                        0.18        36      0.00
+"tryCatchList"                                    0.18        36      0.00
+"tryCatchOne"                                     0.18        36      0.00
+"filebacked"                                      0.12        24      0.00
+"renv_snapshot_description_impl"                  0.12        24      0.00
+"withCallingHandlers"                             0.12        24      0.00
+"catch"                                           0.10        20      0.00
+"renv_description_read"                           0.08        16      0.00
+"renv_dependencies_list"                          0.06        12      0.02
+"renv_filebacked_get"                             0.06        12      0.02
+"%||%"                                            0.06        12      0.00
+"bind"                                            0.06        12      0.00
+"csort"                                           0.06        12      0.00
+"as_data_frame"                                   0.04         8      0.04
+"lazyLoadDBfetch"                                 0.04         8      0.04
+"readRDS"                                         0.04         8      0.04
+"renv_defer_id"                                   0.04         8      0.02
+".readPkgDesc"                                    0.04         8      0.00
+"base::unique"                                    0.04         8      0.00
+"callback"                                        0.04         8      0.00
+"data_frame"                                      0.04         8      0.00
+"dynamic"                                         0.04         8      0.00
+"Filter"                                          0.04         8      0.00
+"fun"                                             0.04         8      0.00
+"installed_packages"                              0.04         8      0.00
+"installed.packages"                              0.04         8      0.00
+"loadNamespace"                                   0.04         8      0.00
+"regmatches"                                      0.04         8      0.00
+"renv_defer_get"                                  0.04         8      0.00
+"renv_hash_description"                           0.04         8      0.00
+"renv_zzz_load"                                   0.04         8      0.00
+"requireNamespace"                                0.04         8      0.00
+"runHook"                                         0.04         8      0.00
+"try"                                             0.04         8      0.00
+"unique"                                          0.04         8      0.00
+"unlist"                                          0.04         8      0.00
+".POSIXct"                                        0.02         4      0.02
+"[<-"                                             0.02         4      0.02
+"case"                                            0.02         4      0.02
+"dim.data.frame"                                  0.02         4      0.02
+"gsub"                                            0.02         4      0.02
+"regexec"                                         0.02         4      0.02
+"regexpr"                                         0.02         4      0.02
+"renv_load_quiet"                                 0.02         4      0.02
+"renv_record_normalize"                           0.02         4      0.02
+"sort.int"                                        0.02         4      0.02
+"sub"                                             0.02         4      0.02
+"substr"                                          0.02         4      0.02
+"sys.function"                                    0.02         4      0.02
+"tolower"                                         0.02         4      0.02
+"%in%"                                            0.02         4      0.00
+"as.list"                                         0.02         4      0.00
+"catchall"                                        0.02         4      0.00
+"config$filebacked.cache"                         0.02         4      0.00
+"defer"                                           0.02         4      0.00
+"dim"                                             0.02         4      0.00
+"file.info"                                       0.02         4      0.00
+"force"                                           0.02         4      0.00
+"formals"                                         0.02         4      0.00
+"format.default"                                  0.02         4      0.00
+"get"                                             0.02         4      0.00
+"keep"                                            0.02         4      0.00
+"Map"                                             0.02         4      0.00
+"mapply"                                          0.02         4      0.00
+"match.arg"                                       0.02         4      0.00
+"read.dcf"                                        0.02         4      0.00
+"renv_bootstrap_library_root_impl"                0.02         4      0.00
+"renv_bootstrap_library_root"                     0.02         4      0.00
+"renv_bootstrap_project_type"                     0.02         4      0.00
+"renv_config_get"                                 0.02         4      0.00
+"renv_dcf_read"                                   0.02         4      0.00
+"renv_defer_add"                                  0.02         4      0.00
+"renv_description_dependency_fields_expand"       0.02         4      0.00
+"renv_envvars_init"                               0.02         4      0.00
+"renv_envvars_normalize"                          0.02         4      0.00
+"renv_file_info"                                  0.02         4      0.00
+"renv_load_sandbox"                               0.02         4      0.00
+"renv_lockfile_diff_packages"                     0.02         4      0.00
+"renv_lockfile_diff_record"                       0.02         4      0.00
+"renv_lockfile_load"                              0.02         4      0.00
+"renv_lockfile_read"                              0.02         4      0.00
+"renv_patch_init"                                 0.02         4      0.00
+"renv_patch_methods_table_impl"                   0.02         4      0.00
+"renv_patch_methods_table"                        0.02         4      0.00
+"renv_path_absolute"                              0.02         4      0.00
+"renv_paths_library_root"                         0.02         4      0.00
+"renv_paths_library"                              0.02         4      0.00
+"renv_sandbox_activate_impl"                      0.02         4      0.00
+"renv_sandbox_activate"                           0.02         4      0.00
+"renv_sandbox_generate"                           0.02         4      0.00
+"renv_scope_locale"                               0.02         4      0.00
+"renv_snapshot_dependencies_impl"                 0.02         4      0.00
+"renv_snapshot_dependencies"                      0.02         4      0.00
+"renv_status_check_initialized"                   0.02         4      0.00
+"renv_status_check_synchronized"                  0.02         4      0.00
+"sort.default"                                    0.02         4      0.00
+"sort"                                            0.02         4      0.00
+"suppressWarnings"                                0.02         4      0.00
+"Sys.getenv"                                      0.02         4      0.00
+"trimws"                                          0.02         4      0.00
+                                            self.pct
+"eval.parent"                                      0
+"eval"                                             0
+"local"                                            0
+"renv_bootstrap_exec"                              0
+"renv_bootstrap_load"                              0
+"source"                                           0
+"withVisible"                                      0
+"renv::load"                                       0
+"<Anonymous>"                                      4
+"renv_load_finish"                                 0
+"renv_load_report_synchronized"                    0
+"status"                                           0
+"lapply"                                           4
+"doWithOneRestart"                                 0
+"FUN"                                              0
+"renv_lockfile_create_impl"                        0
+"renv_lockfile_create"                             0
+"withOneRestart"                                   0
+"withRestarts"                                     0
+"map"                                              0
+"renv_snapshot_packages"                           0
+"renv_dependencies_discover_description"           0
+"renv_package_dependencies_impl"                   0
+"renv_package_dependencies"                        0
+"doTryCatch"                                       0
+"tryCatch"                                         0
+"tryCatchList"                                     0
+"tryCatchOne"                                      0
+"filebacked"                                       0
+"renv_snapshot_description_impl"                   0
+"withCallingHandlers"                              0
+"catch"                                            0
+"renv_description_read"                            0
+"renv_dependencies_list"                           4
+"renv_filebacked_get"                              4
+"%||%"                                             0
+"bind"                                             0
+"csort"                                            0
+"as_data_frame"                                    8
+"lazyLoadDBfetch"                                  8
+"readRDS"                                          8
+"renv_defer_id"                                    4
+".readPkgDesc"                                     0
+"base::unique"                                     0
+"callback"                                         0
+"data_frame"                                       0
+"dynamic"                                          0
+"Filter"                                           0
+"fun"                                              0
+"installed_packages"                               0
+"installed.packages"                               0
+"loadNamespace"                                    0
+"regmatches"                                       0
+"renv_defer_get"                                   0
+"renv_hash_description"                            0
+"renv_zzz_load"                                    0
+"requireNamespace"                                 0
+"runHook"                                          0
+"try"                                              0
+"unique"                                           0
+"unlist"                                           0
+".POSIXct"                                         4
+"[<-"                                              4
+"case"                                             4
+"dim.data.frame"                                   4
+"gsub"                                             4
+"regexec"                                          4
+"regexpr"                                          4
+"renv_load_quiet"                                  4
+"renv_record_normalize"                            4
+"sort.int"                                         4
+"sub"                                              4
+"substr"                                           4
+"sys.function"                                     4
+"tolower"                                          4
+"%in%"                                             0
+"as.list"                                          0
+"catchall"                                         0
+"config$filebacked.cache"                          0
+"defer"                                            0
+"dim"                                              0
+"file.info"                                        0
+"force"                                            0
+"formals"                                          0
+"format.default"                                   0
+"get"                                              0
+"keep"                                             0
+"Map"                                              0
+"mapply"                                           0
+"match.arg"                                        0
+"read.dcf"                                         0
+"renv_bootstrap_library_root_impl"                 0
+"renv_bootstrap_library_root"                      0
+"renv_bootstrap_project_type"                      0
+"renv_config_get"                                  0
+"renv_dcf_read"                                    0
+"renv_defer_add"                                   0
+"renv_description_dependency_fields_expand"        0
+"renv_envvars_init"                                0
+"renv_envvars_normalize"                           0
+"renv_file_info"                                   0
+"renv_load_sandbox"                                0
+"renv_lockfile_diff_packages"                      0
+"renv_lockfile_diff_record"                        0
+"renv_lockfile_load"                               0
+"renv_lockfile_read"                               0
+"renv_patch_init"                                  0
+"renv_patch_methods_table_impl"                    0
+"renv_patch_methods_table"                         0
+"renv_path_absolute"                               0
+"renv_paths_library_root"                          0
+"renv_paths_library"                               0
+"renv_sandbox_activate_impl"                       0
+"renv_sandbox_activate"                            0
+"renv_sandbox_generate"                            0
+"renv_scope_locale"                                0
+"renv_snapshot_dependencies_impl"                  0
+"renv_snapshot_dependencies"                       0
+"renv_status_check_initialized"                    0
+"renv_status_check_synchronized"                   0
+"sort.default"                                     0
+"sort"                                             0
+"suppressWarnings"                                 0
+"Sys.getenv"                                       0
+"trimws"                                           0
+
+$sample.interval
+[1] 0.02
+
+$sampling.time
+[1] 0.5
+
+> tick <- Sys.time(); sandpaper::validate_lesson("lsn"); Sys.time() - tick
+── Validating Fenced Divs ──────────────────────────────────────────────────────
+── Validating Internal Links and Images ────────────────────────────────────────
+Time difference of 11.64984 secs
+> 
+> 
